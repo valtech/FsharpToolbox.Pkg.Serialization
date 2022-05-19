@@ -1,0 +1,7 @@
+.ionide
+.vscode
+.idea
+.vs
+**/obj
+**/bin
+**/*.user

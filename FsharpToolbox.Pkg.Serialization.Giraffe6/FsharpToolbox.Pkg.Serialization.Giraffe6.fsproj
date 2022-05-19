@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>FsharpToolbox.Pkg.Serialization.Giraffe</RootNamespace>
+
+    <!-- SourceLink configuration -->
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Embedded</DebugType>
+    <EmbedAllSources>True</EmbedAllSources>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Giraffe" Version="6.0.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FsharpToolbox.Pkg.Serialization\FsharpToolbox.Pkg.Serialization.fsproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="ServiceCollectionExtensions.fs" />
+  </ItemGroup>
+
+</Project>

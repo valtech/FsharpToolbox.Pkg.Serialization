@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>FsharpToolbox.Pkg.Serialization</RootNamespace>
+
+    <!-- SourceLink configuration -->
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Embedded</DebugType>
+    <EmbedAllSources>True</EmbedAllSources>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Json\Int64FromStringJsonConverter.fs" />
+    <Compile Include="Json\StringFromNumberJsonConverter.fs" />
+    <Compile Include="Json\UnionTypeSerialization.fs" />
+    <Compile Include="Json\Serializer.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.SystemTextJson" Version="0.17.4" />
+    <PackageReference Include="FSharpPlus" Version="1.1.1" />
+    <PackageReference Include="NodaTime.Serialization.SystemTextJson" Version="1.0.0" />
+    <PackageReference Include="System.Text.Json" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="6.0.2" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D8C31E10-FE74-4243-85DB-F855DBB71BBE}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		azure-pipelines.yml = azure-pipelines.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsharpToolbox.Pkg.Serialization", "FsharpToolbox.Pkg.Serialization\FsharpToolbox.Pkg.Serialization.fsproj", "{A7B08DC9-53BF-41A8-8FA2-ED1976FAAB3D}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsharpToolbox.Pkg.Serialization.Giraffe6", "FsharpToolbox.Pkg.Serialization.Giraffe6\FsharpToolbox.Pkg.Serialization.Giraffe6.fsproj", "{E57D43BD-F952-4FD1-BECD-C0DA5F196CBE}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsharpToolbox.Pkg.Serialization.Test", "FsharpToolbox.Pkg.Serialization.Test\FsharpToolbox.Pkg.Serialization.Test.fsproj", "{9E399310-7112-44EC-B060-FD203F038025}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7B08DC9-53BF-41A8-8FA2-ED1976FAAB3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B08DC9-53BF-41A8-8FA2-ED1976FAAB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B08DC9-53BF-41A8-8FA2-ED1976FAAB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B08DC9-53BF-41A8-8FA2-ED1976FAAB3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E57D43BD-F952-4FD1-BECD-C0DA5F196CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57D43BD-F952-4FD1-BECD-C0DA5F196CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57D43BD-F952-4FD1-BECD-C0DA5F196CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57D43BD-F952-4FD1-BECD-C0DA5F196CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E399310-7112-44EC-B060-FD203F038025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E399310-7112-44EC-B060-FD203F038025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E399310-7112-44EC-B060-FD203F038025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E399310-7112-44EC-B060-FD203F038025}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A7029C0-4816-454C-BCDD-1BAB56C54B1F}
+	EndGlobalSection
+EndGlobal
